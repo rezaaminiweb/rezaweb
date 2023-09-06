@@ -1,0 +1,463 @@
+@charset "UTF-8";
+.clippath {
+  position: absolute;
+  width: 400px;
+  height: 500px;
+  z-index: -1;
+  right: 0;
+  top: 0;
+  background: linear-gradient(45deg, #CAD6E5, #fff);
+  -webkit-clip-path: ellipse(90% 80% at 100% 0);
+          clip-path: ellipse(90% 80% at 100% 0);
+}
+@media screen and (min-width: 576px) {
+  .clippath {
+    width: 500px;
+    height: 600px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .clippath {
+    width: 600px;
+    height: 700px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .clippath {
+    width: 1000px;
+    height: 900px;
+  }
+}
+
+nav {
+  z-index: 999;
+}
+
+body {
+  font-family: england;
+  background: linear-gradient(to bottom, rgb(255, 255, 255), rgba(154, 156, 166, 0.4));
+}
+
+.iconbar {
+  font-size: 50px;
+  color: #009BDF;
+}
+
+.iconbar1 {
+  font-size: 32px;
+}
+
+@font-face {
+  font-family: england;
+  src: url(../font/Montserrat-VariableFont_wght.ttf);
+}
+.h44 {
+  font-weight: 800;
+  font-size: 50px;
+  height: 40vh;
+}
+
+.h43 {
+  font-size: 23px;
+  height: auto;
+}
+
+.div12 {
+  border-right: 1px solid rgba(0, 0, 0, 0.436);
+}
+
+.matnaks > div > .h11 {
+  text-transform: capitalize;
+  font-weight: 900;
+}
+.matnaks > div > .span1 {
+  font-weight: 500;
+  text-transform: capitalize;
+  font-size: 32px;
+  color: #758398;
+}
+.matnaks > div > div > i {
+  font-size: 20px;
+  color: white;
+  border-radius: 50%;
+}
+.matnaks > div > div > p {
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.matnaks > .spanns > span {
+  position: relative;
+  color: #758398;
+}
+.matnaks > .spanns > span::after {
+  content: "";
+  width: 40px;
+  height: 2px;
+  position: absolute;
+  bottom: -14px;
+  left: 0;
+  background-color: #758398;
+}
+
+.figer {
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.fullbudy {
+  height: 100vh;
+}
+
+.tozihat > span {
+  font-weight: 700;
+}
+.tozihat > p {
+  font-size: 32px;
+  font-weight: 900;
+}
+
+.menupc {
+  height: 100%;
+}
+.menupc > li {
+  list-style-type: none;
+}
+.menupc > li > a {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  padding: 32px 15px;
+  transition: 0.4s;
+  position: relative;
+  font-weight: 300;
+}
+.menupc > li > a::after {
+  content: "";
+  width: 0;
+  height: 2px;
+  background-color: #00B4EB;
+  position: absolute;
+  left: -20px;
+  top: -26px;
+}
+.menupc > li > a:hover {
+  color: #00B4EB;
+}
+.menupc > li > a:hover::after {
+  transition: 0.4s;
+  width: 100%;
+  left: 0;
+}
+
+.sectionbar .h22 {
+  color: #009BDF;
+  font-weight: 900;
+}
+.sectionbar .p12 {
+  color: #758398;
+  word-spacing: 2px;
+}
+.sectionbar .ahrefs {
+  letter-spacing: 6px;
+  transition: 0.4s;
+  font-weight: 500;
+}
+.sectionbar .ahrefs:hover {
+  color: black;
+}
+
+.p121 {
+  color: #758398;
+  font-size: 18px;
+  word-spacing: 2px;
+}
+
+.ahrefs {
+  position: relative;
+}
+.ahrefs > i {
+  position: absolute;
+  right: 0;
+  transition: 0.4s;
+  top: 0;
+}
+.ahrefs > i:hover {
+  top: -8px;
+}
+
+.background2 {
+  height: 60vh;
+  margin: 0;
+  padding: 0;
+  background-image: url(../img/bg-01-free-img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  position: relative;
+}
+.background2::after {
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(-45deg, rgba(250, 250, 250, 0), rgba(255, 255, 255, 0.862));
+  position: absolute;
+}
+
+.navmenu > ul {
+  position: absolute;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  top: -800px;
+  transition: 0.4s;
+  right: 0%;
+}
+.navmenu > ul > li {
+  list-style-type: none;
+  display: block;
+}
+.navmenu > ul > li > a {
+  display: block;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  border-top: 1px solid rgba(0, 0, 0, 0.194);
+  padding: 40px 10px;
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: capitalize;
+  transition: 0.4s;
+}
+.navmenu > ul > li > a:hover {
+  color: #009BDF;
+}
+.navmenu input + label {
+  position: absolute;
+  z-index: 999;
+  right: 0;
+  top: 50%;
+  width: 20px;
+  height: 20px;
+  background-color: rgba(0, 156, 223, 0);
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+.navmenu input {
+  display: none;
+  transition: 0.4s;
+}
+.navmenu input:checked ~ span {
+  transform: rotateZ(0deg);
+  transition: 1s;
+}
+.navmenu input:checked ~ span:nth-of-type(1) {
+  rotate: 945deg;
+}
+.navmenu input:checked ~ span:nth-of-type(3) {
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.2s;
+}
+.navmenu input:checked ~ span:nth-of-type(2) {
+  rotate: 1035deg;
+}
+.navmenu input:checked ~ ul {
+  top: 80px;
+  right: 0;
+}
+.navmenu > span {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  display: flex;
+  transition: 0.4s;
+}
+.navmenu > span::before {
+  display: flex;
+  content: "";
+  width: 15px;
+  height: 2px;
+  border-radius: 10px;
+  background-color: black;
+}
+.navmenu > span:nth-of-type(1) {
+  transform: translateY(-5px);
+}
+.navmenu > span:nth-of-type(2) {
+  transform: translateY(5px);
+}
+
+.badback > h3 {
+  font-size: 50px;
+  font-weight: 800;
+  text-transform: capitalize;
+}
+.badback > div > p {
+  font-weight: 800;
+}
+.badback > div > .rangbar {
+  width: 100%;
+  height: 24px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px;
+  position: relative;
+}
+.badback > div > .rangbar:nth-of-type(1)::before {
+  content: "95%";
+  color: white;
+  top: 12px;
+  left: 80%;
+  position: absolute;
+  z-index: 999;
+  font-size: 18px;
+  transform: translateY(-50%);
+}
+.badback > div > .rangbar:nth-of-type(1):after {
+  top: 0;
+  left: 0;
+  content: "";
+  position: absolute;
+  width: 95%;
+  height: 100%;
+  border-radius: 15px;
+  background-color: #009BDF;
+}
+.badback > div > .rangbar:nth-of-type(2)::before {
+  content: "100%";
+  top: 12px;
+  color: white;
+  left: 85%;
+  position: absolute;
+  z-index: 999;
+  font-size: 18px;
+  transform: translateY(-50%);
+}
+.badback > div > .rangbar:nth-of-type(2):after {
+  top: 0;
+  left: 0;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  background-color: #009BDF;
+}
+.badback > div > .rangbar:nth-of-type(3)::before {
+  content: "85%";
+  color: white;
+  top: 12px;
+  left: 70%;
+  position: absolute;
+  z-index: 999;
+  font-size: 18px;
+  transform: translateY(-50%);
+}
+.badback > div > .rangbar:nth-of-type(3):after {
+  top: 0;
+  left: 0;
+  content: "";
+  position: absolute;
+  width: 85%;
+  height: 100%;
+  border-radius: 15px;
+  background-color: #009BDF;
+}
+.badback > div > .rangbar:nth-of-type(4)::before {
+  content: "90%";
+  color: white;
+  top: 12px;
+  left: 75%;
+  position: absolute;
+  z-index: 999;
+  font-size: 18px;
+  transform: translateY(-50%);
+}
+.badback > div > .rangbar:nth-of-type(4):after {
+  top: 0;
+  left: 0;
+  content: "";
+  position: absolute;
+  width: 90%;
+  height: 100%;
+  border-radius: 15px;
+  background-color: #009BDF;
+}
+.badback > div > .rangbar:nth-of-type(5)::before {
+  content: "80%";
+  color: white;
+  top: 12px;
+  left: 65%;
+  position: absolute;
+  z-index: 999;
+  font-size: 18px;
+  transform: translateY(-50%);
+}
+.badback > div > .rangbar:nth-of-type(5):after {
+  top: 0;
+  left: 0;
+  content: "";
+  position: absolute;
+  width: 80%;
+  height: 100%;
+  border-radius: 15px;
+  background-color: #009BDF;
+}
+.badback > div > .rangbar:nth-of-type(6)::before {
+  content: "80%";
+  color: white;
+  top: 12px;
+  left: 65%;
+  position: absolute;
+  z-index: 999;
+  font-size: 18px;
+  transform: translateY(-50%);
+}
+.badback > div > .rangbar:nth-of-type(6):after {
+  top: 0;
+  left: 0;
+  content: "";
+  position: absolute;
+  width: 80%;
+  height: 100%;
+  border-radius: 15px;
+  background-color: #009BDF;
+}
+
+.divkhat2 > h3 {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #009BDF;
+  font-weight: 600;
+}
+.divkhat2 > p {
+  font-weight: 500;
+}
+
+.divkhat > span:nth-of-type(1) {
+  font-weight: 700;
+}
+.divkhat > span:nth-of-type(2) {
+  color: rgba(0, 0, 0, 0.595);
+}
+.divkhat > .khatkesh {
+  width: 100%;
+  height: 2px;
+  background-color: black;
+  position: relative;
+}
+.divkhat > .khatkesh::after {
+  content: "˃";
+  position: absolute;
+  right: 0;
+  background-color: black;
+  color: white;
+  padding: 2px 10px;
+  font-weight: 900;
+  font-size: 12px;
+  border-radius: 50%;
+  bottom: -500%;
+}/*# sourceMappingURL=master.css.map */
