@@ -2,7 +2,7 @@
 
 
 ![s1](https://github.com/rezaaminiweb/rezaweb/assets/140278906/253efa72-df2e-4782-876d-a559f141f468)
-![s2](https://github.com/rezaaminiweb/rezaweb/assets/140278906/5101c2e1-ea47-4f48-a550-e72c176b158b)
+
 
 
 <a href="https://rezaaminiweb.github.io/rezaweb">DEMO PROJECT</a>
