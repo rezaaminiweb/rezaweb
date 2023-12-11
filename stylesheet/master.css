@@ -7,8 +7,7 @@
   right: 0;
   top: 0;
   background: linear-gradient(45deg, #CAD6E5, #fff);
-  -webkit-clip-path: ellipse(90% 80% at 100% 0);
-          clip-path: ellipse(90% 80% at 100% 0);
+  clip-path: ellipse(90% 80% at 100% 0);
 }
 @media screen and (min-width: 576px) {
   .clippath {
@@ -460,4 +459,67 @@ body {
   font-size: 12px;
   border-radius: 50%;
   bottom: -500%;
-}/*# sourceMappingURL=master.css.map */
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.protfolio {
+  font-weight: bold;
+}
+
+.figcap45 {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.wallex {
+  font-weight: 500;
+}
+
+#notres {
+  color: red;
+  font-size: 10px;
+}
+
+.footers {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+}
+
+.ullis {
+  list-style-type: none;
+}
+.ullis > li {
+  color: #6c757d;
+}
+.ullis > li > h1 {
+  color: black;
+  font-size: 2rem;
+}
+
+.ullis2 {
+  list-style-type: none;
+}
+.ullis2 > li {
+  color: black;
+  padding: 5px 0px;
+}
+.ullis2 > li > h5 {
+  color: black;
+  font-weight: bolder;
+  font-size: 3rem;
+  text-decoration: underline;
+}
+@media screen and (max-width: 576px) {
+  .ullis2 > li > h5 {
+    font-size: 2rem;
+  }
+}
+
+/*# sourceMappingURL=master.css.map */
